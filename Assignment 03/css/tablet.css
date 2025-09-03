@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+  * {
+    max-width: 768px;
+    font-size: 0.9rem;
+  }
+  /* PAGE SECTIONS */
+  .container {
+    display: grid;
+    grid-template-rows: 365px 50px 560px 1fr 750px 800px 100px;
+  }
+
+  /* SMALLER ELEMENTS */
+  /* HEADER */
+  .main-header {
+    height: 365px;
+  }
+
+  .banner {
+    left: 150px;
+  }
+
+  /* NAVBAR */
+  .nav-plus {
+    display: none;
+  }
+  .nav {
+    grid-template-columns: 100px 100px 20px 100px 100px;
+  }
+  .nav-name {
+    width: 50px;
+    border-left: 1px solid rgba(128, 128, 128, 0.322);
+    border-right: 1px solid rgba(128, 128, 128, 0.322);
+  }
+
+  /* SKILL */
+  .skill {
+    display: grid;
+    grid-template-columns: 360px 360px;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .col-top,
+  .col-bott {
+    min-height: 650px;
+    min-width: 360px;
+  }
+
+  .col-1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .col-2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .col-3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .col-top {
+    width: 360px;
+  }
+
+  .hub {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* REWARD */
+  .reward {
+    padding: 10px;
+  }
+
+  .reward-left,
+  .reward-right {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .border-right {
+    border-right: none;
+  }
+
+  .reward-right {
+    border-left: 1px solid #d6c08d;
+  }
+
+  hr {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .reward-image {
+    width: 100%;
+  }
+
+  .reward-grid h3 {
+    font-size: 1rem;
+  }
+
+  /* PROJECT */
+  .project {
+    padding: 20px;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(3, 230px);
+  }
+}
