@@ -63,9 +63,15 @@
     flex-direction: column;
   }
 
-  .d-flex .justify-start {
-    justify-content: start;
+  /* Team */
+  .px-4 {
+    align-self: flex-start;
   }
+}
+
+/* Timeline */
+.column-5 .align-items-center {
+  align-items: flex-start !important;
 }
 
 /* Mobile */
